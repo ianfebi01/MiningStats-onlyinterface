@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bulma Version 0.9.0-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: poppins;
+      }
+      .button {
+        border-radius: 10px !important;
+      }
+      .month {
+        color: #334196;
+      }
+      .profit {
+        color: #fdab40;
+      }
+      .img-coin {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 550px;
+      }
+      .navMenuFont {
+        font-family: Rubik;
+        color: #3d3e5a;
+      }
+    </style>
+
+    <title>MiningStats</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar is-transparent">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="#" class="navbar-item brand-text">
+            <strong class="is-size-4 navMenuFont">MiningStats</strong>
+          </a>
+          <div id="burger" class="navbar-burger burger" data-target="navMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-menu navMenuFont" id="navMenu">
+            <div class="navbar-start">
+              <a href="#" class="navbar-item">New Data</a>
+              <a href="#" class="navbar-item">View Data</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Body -->
+    <div class="hero is-medium">
+      <div class="hero-body">
+        <div class="container is-max-widescreen">
+          <div class="columns">
+            <div class="column is-three-fifths">
+              <p class="profit title is-2 has-text-weight-bold">
+                Profit This Month
+              </p>
+              <p class="month subtitle is-size-1 has-text-weight-bold">March</p>
+              <button class="button is-link is-large has-shadow">
+                <p class="has-text-white px-2 has-text-weight-bold">2.000k</p>
+              </button>
+              <section class="info-tiles has-text-centered">
+                <div class="columns mt-2">
+                  <div class="column">
+                    <article class="tile is-child box py-5">
+                      <p class="title has-text-link">1.922</p>
+                      <p class="subtitle month">December</p>
+                    </article>
+                  </div>
+                  <div class="column">
+                    <article class="tile is-child box py-5">
+                      <p class="title has-text-link">1.922</p>
+                      <p class="subtitle month">December</p>
+                    </article>
+                  </div>
+                  <div class="column">
+                    <article class="tile is-child box py-5">
+                      <p class="title has-text-link">1.922</p>
+                      <p class="subtitle month">December</p>
+                    </article>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="column">
+              <figure class="image is-2000x2000">
+                <img src="images/bacground.png" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script async type="text/javascript" src="miningStats.js"></script>
+  </body>
+</html>

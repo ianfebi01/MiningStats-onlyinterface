@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  color: #3d3e5a;
+  display: flex;
+}
+
+.header h2 {
+  font-size: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.button-header {
+  display: flex;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 0px;
+  margin-left: 650px;
+}
+
+.button-header p {
+  margin-left: 50px;
+}
+
+.container {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.body h1 {
+  color: #fdab40;
+  margin-top: 118px;
+  margin-bottom: 0px;
+  font-size: 48px;
+  font-weight: 800;
+}
+.body h2 {
+  color: #334196;
+  margin-top: 0px;
+  font-size: 62px;
+  margin-bottom: 0px;
+  font-weight: 800;
+}
+.body {
+  display: flex;
+}
+.body .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.body .right {
+}
+
+.img-coin {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 550px;
+}
+
+.right .img-bg {
+  margin: 95px 10px 200px -20px;
+}
+.body .profit {
+  border: none;
+  background-color: #5161c4;
+  font-size: 38px;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 10px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-right: 600px;
+  -webkit-box-shadow: 2px 3px 15px 6px rgba(0, 0, 0, 0.09);
+  box-shadow: 2px 3px 15px 6px rgba(0, 0, 0, 0.09);
+}
+
+.body .card {
+  display: flex;
+  margin-top: 20px;
+}
+
+.body .card .previous-profit {
+  border-color: black;
+  background-color: white;
+  color: #5161c4;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 20px;
+  padding: 20px 40px;
+  -webkit-box-shadow: 2px 3px 15px 6px rgba(0, 0, 0, 0.09);
+  box-shadow: 2px 3px 15px 6px rgba(0, 0, 0, 0.09);
+}
+
+.body .card .previous-profit .income {
+  color: #5161c4;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
